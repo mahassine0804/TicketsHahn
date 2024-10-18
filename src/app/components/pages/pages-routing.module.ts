@@ -11,7 +11,7 @@ import { ngxPermissionsGuard } from 'ngx-permissions';
 
       
 
-        { path: 'langue', loadChildren: () => import('./langue/langue.module').then(m => m.LangueModule),
+        { path: 'langue', loadChildren: () => import('./ticket/ticket.module').then(m => m.LangueModule),
         canActivate:[ngxPermissionsGuard] ,data:{
         permissions:{
         only:["143"],

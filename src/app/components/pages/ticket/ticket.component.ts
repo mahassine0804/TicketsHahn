@@ -7,12 +7,12 @@ import { NgxPermissionsService } from 'ngx-permissions';
 import { Router } from '@angular/router';
 import { setThrowInvalidWriteToSignalError } from '@angular/core/primitives/signals';
 @Component({
-  selector: 'app-langue',
-  templateUrl: './langue.component.html',
-  styleUrls: ['./langue.component.scss'],
+  selector: 'app-ticket',
+  templateUrl: './ticket.component.html',
+  styleUrls: ['./ticket.component.scss'],
   providers: [MessageService ,ConfirmationService],
 })
-export class LangueComponent implements OnInit{
+export class ticketComponent implements OnInit{
   productss:any[]=[]
   roles:any=[];
   listTickets:any

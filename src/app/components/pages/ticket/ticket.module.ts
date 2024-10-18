@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LangueRoutingModule } from './langue-routing.module';
+import { LangueRoutingModule } from './ticket-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TableModule } from 'primeng/table';
 import { FileUploadModule } from 'primeng/fileupload';
@@ -15,7 +15,7 @@ import { DropdownModule } from 'primeng/dropdown';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { DialogModule } from 'primeng/dialog';
-import { LangueComponent } from './langue.component';
+import { ticketComponent } from './ticket.component';
 import { InputSwitchModule } from 'primeng/inputswitch';
 import { ConfirmPopupModule } from 'primeng/confirmpopup';
 import { PaginatorModule } from 'primeng/paginator';
@@ -25,7 +25,7 @@ import { ConfirmationService } from 'primeng/api';
 
 
 @NgModule({
-  declarations: [LangueComponent],
+  declarations: [ticketComponent],
   imports: [
     CommonModule,
     LangueRoutingModule,

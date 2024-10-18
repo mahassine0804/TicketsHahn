@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LangueComponent } from './langue.component';
+import { ticketComponent } from './ticket.component';
 
 const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forChild([
-    {path:'',component:LangueComponent}
+    {path:'',component:ticketComponent}
   ])],
   exports: [RouterModule]
 })
